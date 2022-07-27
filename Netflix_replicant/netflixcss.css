@@ -1,0 +1,139 @@
+.banner{
+    background-image: url("./pics/R.jfif");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 10px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.banner-content{
+    padding-top: 70px;
+    margin-left: 30px;
+}
+.banner-title{
+    /* color: red; */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.banner-button{
+    padding-top:10px ;
+}
+.banner-button-click{
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+}
+
+.banner-button-click:hover{
+    color: white;
+    background-color: red;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    font-family: sans-serif ;
+    font-size: 30px;
+    color: red;
+    margin: 10px;
+    margin-left: 30px;
+}
+li{
+    color: white;
+    display: inline;
+    margin: 30px;
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    margin-right: 50px;
+    padding: 0px;
+}
+.search-bar{
+    padding: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-decoration: none;
+    border-style: none;
+    font-family: sans-serif;
+}
+.search-bar:focus{
+    outline: none;
+}
+.search-bar-icon{
+    padding-left: 8px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    outline: none;
+}
+.user-icon{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+body{
+    margin: 0px;
+    background-color: rgb(51, 50, 50);
+}
+
+
+.row-img{
+    width: 100%;
+    background-size: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform .5s;
+
+}
+
+.row-img:hover{
+    transform: scale(1.09);
+}
+.potrait{
+    max-height: 250px;
+}
+.row-content{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row-content::-webkit-scrollbar{
+    display: none;
+}
+
+.row{
+    margin-top: 30px;
+    color: white;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+footer p{
+    text-align: center;
+    color: gray;
+    font-family: sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+}
