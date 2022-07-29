@@ -1,0 +1,218 @@
+nav{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    justify-content: space-between;
+    margin: 10px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(174, 174, 174) ;
+}
+nav a:hover{
+    color: white;
+}
+nav li{
+    display: inline;
+    margin: 17px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+}
+
+body{
+    margin: 0px;
+    scroll-behavior:smooth;
+}
+
+.apple_logo{
+    object-fit: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.apple_cart{
+    object-fit: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.apple_search{
+    object-fit: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.banner-1{
+    background-image: url('./img/macbook_air.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.banner-1-content{
+    margin-left: 50px;
+    padding-top: 70px;
+}
+.banner-1-title{
+    font-size: x-large;
+}
+.banner-1-desc{
+    margin-top: -20px;
+    padding-left: 2px;
+}
+.banner-1-link{
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.banner-1-link a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.banner-1-link a:hover{
+    text-decoration: underline;
+}
+.banner-2{
+    background-color: black;
+    height: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.banner-2-title{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.banner-2-desc{
+    color: white;
+    font-size: 20px;
+    margin-top: -13px;
+    padding-left: 5px;
+}
+
+.banner-2-img img{
+    padding-top: 30px;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.banner-2-title img{
+    width: 35px;height: 35px;
+    object-fit: contain;
+}
+
+.banner-2-link a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: cornflowerblue;
+}
+.banner-2-link a:hover{
+    text-decoration: underline;
+}
+.row{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: 98.4%;
+    margin-top: -10px;
+    background-color: white;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rows{
+    background-color: rgb(228, 247, 255);
+    margin-top: 10px;
+    height: 550px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row-title{
+    margin-top: 40px;
+    font-size: larger;
+}
+.row-desc{
+    margin-top: -10px;
+}
+.row-link a{
+    text-decoration:none ;
+    color: cornflowerblue;
+    padding-left: 10px;
+}
+.row-link a:hover{
+    text-decoration: underline;
+}
+
+.row-img img{
+    object-fit: contain;
+    height: 400px;
+    width: 450px;
+}
+
+.img1 img{
+    padding-top: 61px;
+    height: 365px;
+    width: 350px;
+}
+
+.img3 img{
+    width: 420px;
+}
+.img4 img{
+    margin-top: -10px;
+    width: 440px;
+}
+footer{
+    background-color: rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+footer p{
+    font-weight: bold;
+}
+.line{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.line a{
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
+.grid-footer{
+    height: 450px;
+}
+.line li{
+    list-style: none;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.line a:hover{
+    text-decoration: underline;
+}
+
+footer hr{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.last{
+    font-size: 13px;
+    margin-left: 60px;
+    margin-top: -5px;
+    color: rgb(142, 142, 142);
+}
