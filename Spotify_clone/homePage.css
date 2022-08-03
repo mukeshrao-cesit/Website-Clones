@@ -1,0 +1,367 @@
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+.drop-down{
+    display: none;
+    width: fit-content;
+    background-color: grey;
+}
+.drp:hover + .drop-down{
+    display: block;
+    transition-delay: 2s;
+}
+.menu{
+    grid-area: menu-bar;
+    background-color: black;
+    padding-left: 25px;
+    display: inline;
+    height: 100%;
+    position: fixed;
+    width: 250px;
+}
+
+.body{
+    grid-area: body-bar;
+    /* background-color: blue; */
+    margin-left: 20px;
+}
+.nav{
+    grid-area: nav-bar;
+}
+/* .footer{
+    grid-area: footer-bar;
+    background-color: black;
+} */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'menu-bar  nav-bar'
+    'menu-bar body-bar'
+    'menu-bar footer-bar';
+    grid-template-columns: 250px auto;
+    grid-gap: 0px;
+    background:linear-gradient(to bottom,rgb(61, 32, 32),rgb(29, 29, 29));
+}
+
+body{
+    position: relative;
+    margin: 0px;
+    font-family: 'Montserrat',sans-serif;
+    height:2000px;
+    background-color: rgb(29, 29, 29);
+    width: 1265px;
+}
+
+.menu img{
+    width: 130px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu li{
+    color: rgb(204, 204, 204);
+    list-style: none;
+    padding-top: 20px;
+    font-size: x-large;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu a:hover li{
+    color:white;
+}
+
+
+.menu h6{
+    margin: 0px;
+    display: inline;
+    padding-left: 10px;
+    font-size:small;
+    vertical-align: middle;
+}
+
+.menu hr{
+    margin-top: 25px;
+    margin-bottom: 6px;
+    width: 160px;
+}
+
+.nav{
+    position:sticky;
+    background-color:rgba(34, 34, 34, 0.96);
+    height: 60px;
+    top: 0;
+    display: flex;
+    justify-content: right;
+    z-index: 1;
+    margin-left: -20px;
+}
+.nav ul{
+    margin: 12px;
+    padding: 0px;
+    margin-left:inherit;
+    
+}
+.nav li{
+    list-style: none;
+    display: inline;
+    margin-left:10px ;
+}
+.nav button{
+    border-radius: 20px;
+    font-size: small;
+    background-color: black;
+    font-weight:bold;
+    border: 1px solid grey;
+}
+.nav button:hover{
+    background-color: white;
+    color: black;
+}
+.nav i{
+    padding-right: 5px;
+}
+
+.grid-banner{
+    display: grid;
+    grid-template-columns: 318px 318px 318px;
+    gap: 10px;
+    margin: 10px;
+    margin-top: 40px;
+}
+.grid-content{
+    border-radius: 5px;
+    background-color: rgb(51, 51, 51);
+    width: 318px;
+    transition: transform .5s;
+    position: relative;
+}
+.grid-content:hover .grid-overlay{
+    background-color:rgb(61, 61, 61) ;
+    opacity: 1;
+}
+.grid-content:hover{
+    transform: scale(1.03);
+    background-color:rgb(61, 61, 61) ;
+}
+
+.grid-content img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.grid-content h6{
+    display: inline;
+    padding-left: 15px;
+    font-size: 15px;
+    color: white;
+}
+.grid-overlay{
+    position: absolute;
+    opacity: 0;
+    transition: .3s ease;
+    top: 5px;
+    left: 255px;
+}
+
+.grid-icon{
+    font-size: 50px;
+    position: absolute;
+}
+.grid-icon i{
+    color: #1ED760;
+}
+.body h1{
+    margin-top: 30px;
+    color: white;
+}
+
+.row-1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+.template img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-size: contain;
+    
+}
+.row-content{
+    padding: 15px;
+    transition: transform .5s;
+    
+}
+.row-content:hover{
+    transition-delay: .3s ease;
+    transition-property:background-color;
+    background-color: rgb(48, 48, 48);
+    border-radius: 5px;
+}
+.title h5{
+    padding-top: 7px;
+    font-weight: bold;
+}
+.desc a{
+    text-decoration: none;
+    color: grey;
+}
+.desc a:hover{
+    text-decoration: underline;
+}
+.container {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    margin-left: 137px;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.row-content:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    font-size: 50px;
+    position: absolute;
+    top:64%;
+    text-align: center;
+}
+.icon i{
+    color: #1ED760;
+}
+.set-icon{
+    display: none;
+}
+
+.heading a{
+    display: block;
+    font-size: small;
+    text-decoration: none;
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    color: grey;
+}
+.heading a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+    .menu{
+        display: none;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .grid-container{
+        grid-template-areas:
+        'body-bar'
+        'footer-bar'; 
+        grid-template-columns: auto;
+    }
+    body{
+        width: 576px;
+        height: 1200px;
+    }
+    .nav{
+        display: none;
+    }
+    .body{
+        margin: 0px;
+        width: 576px;
+        padding-left: 12px;
+    }
+    .body h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .message{
+        display: flex;
+        justify-content: space-between;
+    }
+    .set-icon{
+        display: inline;
+        margin-top: 30px;
+    }
+    .set-icon a{
+        text-decoration: none;
+    }
+    .set-icon i{
+        color: white;
+        font-size: 17px;
+        margin-right: 12px;
+    }
+
+    .grid-banner{
+        grid-template-columns: 260px 260px;
+        width: 541px;
+        margin-right: 10px;
+    }
+    .grid-content{
+        width: 260px;
+    }
+    .grid-content img{
+        width: 60px;
+        height: 60px;
+    }
+    .grid-content h6{
+        font-size: 14px;
+    }
+    .grid-overlay{
+        left: 225px;
+        top:8px
+    }
+    .grid-icon{
+        font-size: 30px;
+    }
+    .row-1{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin-left: 10px;
+    }
+    .heading h3{
+        font-size: medium;
+    }
+    .heading a{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .overlay{
+        height: 100px;
+        margin-left: 85px;
+    }
+    .overlay i{
+        font-size: 35px;
+    }
+    .container img{
+        width: 130px;
+        height: 130px;
+    }
+    .title h5{
+        font-size: 13px;
+    }
+    .desc a{
+        font-size: 9px;
+    }
+}
