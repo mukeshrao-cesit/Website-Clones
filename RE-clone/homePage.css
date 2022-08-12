@@ -430,3 +430,176 @@ nav i{
         font-size: 7px;
     }
 }
+
+@media screen and (max-width:768px) and (min-width:578px) {
+    nav{
+        height: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    nav img{
+        width: 150px;
+        height: 50px;
+        margin-top: 5px;
+    }
+    nav ul{
+        padding: 0px;
+        vertical-align: middle;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .nav-ul{
+        display: none;
+    }
+    nav li{
+        padding: 0px;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .bi-search{
+        font-size: 25px;
+    }
+    .bi-chevron-down{
+        font-size: 20px;
+        padding-left: 3px;
+    }
+    .menu-bar{
+        display: inline;
+    }
+    .bi-list{
+        color: white;
+        font-size: 30px;
+    }
+    .banner-1-content img{
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/hunter-350/home/hunter_350.png');
+    }
+    .banner-1-overlay{
+        top: 50%;
+        left: 45%;
+    }
+    .s1{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/home/classic_350_home.png');
+    }
+    .s2{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/mobile/royal_enfield_hfi.png');
+    }
+    .s3{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/scram/home/mobile/scram_411_carousal.jpg');
+    }
+    .s4{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/mobile/royal_enfield_leh_rider_support.png');
+    }
+    .s5{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/mobile/explore_guide.png');
+    }
+    .s6{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/india/gtcup-2022/gtcup_home.png');
+    }
+    .s7{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/india/home/motorcycles/mobile/royal_enfield_himalayan_motorcycle.jpg');
+    }
+    .slide-overlay{
+        display: none;
+    }
+    .row-1{
+        display: none;
+    }
+    .b2 img{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/hunter-350/home/motorcycle/hunter-350_motorcycle_home.jpg');
+    }
+    .banner-2-overlay{
+        top: 85%;
+        left: 43%;
+    }
+    .b3 img{
+        width: 100%;
+        content: url('https://www.royalenfield.com/content/dam/royal-enfield/india/home/locate-us/mobile/stores.jpg');
+    }
+    .banner-3-overlay{
+        top: 55%;
+        left: 10%;
+    }
+    .banner-3-overlay h4{
+        font-size: 25px;
+    }
+    .row-final{
+        display: none;
+    }
+    .footer-logo{
+        display: inline;
+        text-align: center;
+        padding: 0%;
+    }
+    .bi-facebook{
+        margin-top: 10%;
+        margin-left: 36%;
+    }
+    .footer-logo p{
+        margin-bottom: 30px;
+    }
+    .footer hr{
+        display: none;
+        position: relative;
+    }
+    .footer-content{
+        display: inline;
+    }
+    .footer-content h3{
+        font-size: 17px;
+    }
+    .footer-content ul{
+        padding-left: 40px;
+    }
+    .footer-content li{
+        display: none;
+    }
+    .footer-tc{
+        display: inline;
+    }
+    .footer-tc p{
+        margin-left: 40px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:769px) {
+    nav img{
+        margin-top: 5px;
+        width: 120px;
+        height: 50px;
+    }
+    nav{
+        height: 60px;
+    }
+    nav ul{
+        font-size: 12px;
+    }
+    nav li{
+        padding: 9px;
+    }
+    .row-final{
+        height: 300px;
+    }
+    .row-final-content img{
+        object-fit: fill;
+    }
+    .row-final-overlay a{
+        font-size: 17px;
+    }
+    .footer-content h3{
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .footer-content li{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+}
